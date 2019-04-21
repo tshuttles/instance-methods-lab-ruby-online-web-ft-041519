@@ -1,6 +1,7 @@
 class Person 
 
   human = Person.new 
+  
   def talk 
     puts "Hello World!" 
   end 
@@ -9,8 +10,7 @@ class Person
     puts "The Person is walking"
   end 
 
-  
-
-
+  human.talk 
+  human.walk 
 
 end 
