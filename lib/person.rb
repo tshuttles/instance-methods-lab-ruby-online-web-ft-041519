@@ -1,5 +1,6 @@
 class Person 
 
+  human = Person.new 
   def talk 
     puts "Hello World!" 
   end 
